@@ -1,0 +1,196 @@
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+h1{
+    color: #ED2553; font-family: 'Lobster', cursive; font-weight: 400; 
+}
+label{
+  margin-left: 2%; 
+
+}
+#light{
+  border: none; 
+}
+#chaomung{
+  width: 75%; margin: auto; text-align: center;
+}
+#chaomung a h1{
+  font-size: 37px;
+}
+#sl_mon{
+  padding:2% 3%; float: left; margin-top:-8.5%; margin-left: 75%;
+}
+#container{ 
+    margin-left: 12%;  background: white;    margin-bottom: 15px;  width: 75%;
+    padding-left: 25px;
+    padding-top: 2.5%; margin-top: 4%;
+    border-radius: 5px;
+    padding-bottom: 55px;
+    box-shadow: 0px -8px 20px black; z-index: 1px; opacity: 1;
+    transition: opacity .5s;
+}
+#parse_btn{
+  width: 200px;  
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:20px;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  border-radius: 10px;
+}
+#parse_btn:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+#parse_btn:before,#parse_btn:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+#parse_btn:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+#parse_btn:hover:before,#parse_btn:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+img.wp-smiley,
+img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+}
+.site-header {
+            background-color: transparent; z-index: 3;  
+  }  
+  .site-header {
+            background-size: inherit;
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-position: center top;
+        }
+        .ht-container,
+        .ht-sitecontainer--boxed {
+            max-width: widepx
+        }
+        .hkb-category {
+            border-bottom: 1px solid #e6e6e6;
+        }
+        .hkb_widget_toc ol li.active > a {
+            background: rgba( 0, 180, 179, 0.8);
+        }
+a {
+            color: #00b4b3;
+            text-decoration: none;
+        }
+        button,
+        input[type="reset"],
+        input[type="submit"],
+        input[type="button"],
+        .hkb-article__content ol li:before,
+        .hkb-article__content ul li:before,
+        .hkb_widget_exit__btn {
+            background: #00b4b3;
+        }
+        .hkb-breadcrumbs__icon {
+            fill: #00b4b3;
+        }
+        .hkb-article__title a:hover,
+        .ht-post__title a:hover {
+            color: #00b4b3;
+        }
+        .hkb-article-attachment__icon {
+            fill: #00b4b3;
+        }
+        a:hover {
+            color: #00a8a8;
+        }
+        button:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        input[type="button"]:hover,
+        .ht-transferbox__btn:hover {
+            background: #00a8a8;
+        }
+        .ht-container {
+            max-width: 1000px;
+        }
+        .ht-sitecontainer--boxed {
+            max-width: 1000px;
+        }
+        
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            font-weight: 700;
+            color: #333333;
+        }
+        body {
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 1.55;
+            color: #595959;
+        }
+
+.phantrang
+
+{
+
+ border:1px  #FFFFCC solid;
+
+ padding:5px;
+
+ background:#cccc;
+
+ width:20px;
+
+ float:left;
+
+ font-weight:bold;
+
+}
+/*Giao diện Particle*/
+
+#particles-js{
+  width: 100%; min-height: 580px;
+   position: absolute;
+  background-color: #00b4b3;
+  background-image: url('../img/backwhite.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-attachment: scroll;
+  background-position: center top;
+}
+
+
+.congthuc{
+  font-size: 20px; text-decoration: none;
+}
+
+#container p img{
+  width: 100%;
+}
